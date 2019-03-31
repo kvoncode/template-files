@@ -1,0 +1,50 @@
+# HTML
+
+    <div class="main-msg" id="img-caption">
+      Custom Text
+    </div>
+
+    <div class="center-all" id="img-div">
+      <img class="img-r-fh" id="image" src="assets/img/image.jpg" alt="">
+    </div>
+
+
+
+# CSS
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive image Full Height */
+.img-r-fh {
+    object-fit: cover;
+    overflow: hidden;
+    filter: brightness(70%);
+    z-index: -100;
+    width: 100vw;
+    height: 100vh;
+}
+
+.center-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-msg {
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: absolute;
+    font-size: 3em;
+    color: white;
+    opacity: 1;
+    text-align: left;
+    z-index: -1;
+    line-height: normal;
+    left: 10%;
+    bottom: 50%;
+}
+
+# Notes
+- center-all class is for centering image when screen resized
+- img-r-fh class is cropping image when it's not fits in screen
