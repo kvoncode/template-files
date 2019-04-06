@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>React Template</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Reat Template</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-</head>
+    <!-- Google Open Sans Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300"
+      rel="stylesheet"
+    />
 
-<body>
-  
-  <div id="root"></div>
+    <!-- Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
+    <!-- Font Awesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
+        integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous">
+    </script>
 
+    <!-- Custom -->
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="styles.css">
 
-  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  </head>
 
-  <!-- Don't use this in production: -->
-  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <body>
+    <div id="root"></div>
 
-  <script type="text/babel">
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 
-    ReactDOM.render(
-        <h1>Hello, world!</h1>,
-        document.getElementById('root')
-      );
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 
-  </script>
+    <script type="text/babel">
+      ReactDOM.render(<h1>Hello, world!</h1>, document.getElementById("root"));
+    </script>
 
-  <script type="text-jsx" src="react.jsx"></script>
-
-</body>
-
+    <script type="text-jsx" src="react.jsx"></script>
+  </body>
 </html>
