@@ -1,7 +1,7 @@
 //import React from 'react'
 //import ReactDOM from 'react-dom'
 
-const TITLE = "Elon Musk Tribute Page";
+const TITLE = "React with Bootstrap Template";
 
 class App extends React.Component {
     componentDidMount() {

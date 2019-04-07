@@ -1,8 +1,8 @@
 :root {
-    --first-color: #ff7473;
-    --second-color: #ffc952;
-    --third-color: #47b8e0;
-    --fourth-color: #34314c;
+    --primary-color: #ff7473;
+    --secondary-color: #ffc952;
+    --tertiary-color: #47b8e0;
+    --quaternary-color: #34314c;
 }
 
 /* Basic Rules */
@@ -11,9 +11,10 @@
     padding: 0;
 }
 
-body, html {
+body,
+html {
     width: 100%;
-    
+
 }
 
 .center-all {
@@ -37,7 +38,7 @@ body, html {
 }
 
 /* Responsive image Full Height and Width with text on it*/
-.img-r-fh {
+.cpremier-img {
     object-fit: cover;
     overflow: hidden;
     filter: brightness(90%);
@@ -46,15 +47,32 @@ body, html {
     height: 100vh;
 }
 
-.main-msg {
+.cpremier-text {
+    width: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
-    position: absolute;
+    position: relative;
     font-size: 3em;
-    color: white;
+    color: #E8CE07;
     opacity: 1;
     text-align: left;
-    z-index: -1;
+    z-index: 0;
     line-height: normal;
-    left: 10%;
-    bottom: 50%;
+
+}
+
+/* Custom Background Tranparent */
+/* Custom Background Tranparent */
+
+.cbg-transparent {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.86);
+
+
+
 }
