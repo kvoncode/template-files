@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #ff7473;
-    --secondary-color: #ffc952;
-    --tertiary-color: #47b8e0;
-    --quaternary-color: #34314c;
+    --primary: #ff7473;
+    --secondary: #ffc952;
+    --tertiary: #47b8e0;
+    --quaternary: #34314c;
 }
 
 /* Basic Rules */
@@ -61,8 +61,6 @@ html {
 }
 
 /* Custom Background Tranparent */
-/* Custom Background Tranparent */
-
 .cbg-transparent {
     max-width: 600px;
     display: flex;
@@ -72,7 +70,9 @@ html {
     bottom: 10%;
     padding: 50px;
     background-color: rgba(0, 0, 0, 0.86);
+}
 
-
-
+.codepen-mock-img {
+    max-width: 1px;
+    display: block;
 }
